@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Coupon Savings Hub - Find the Best Deals & Discounts",
+  title: "Neet Pg and Fmge Discount Code",
   description: "Discover the latest coupon codes and deals to save money on your online shopping.",
     generator: 'v0.dev'
 }
