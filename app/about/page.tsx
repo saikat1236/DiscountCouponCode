@@ -9,11 +9,11 @@ export default function AboutPage() {
       {/* <Navigation /> */}
       <main className="flex-1 container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-3xl font-bold mb-6">About DiscountCouponCode</h1>
+          <h1 className="text-3xl font-bold mb-6">About Neet Pg and Fmge Discount Code</h1>
 
           <div className="prose max-w-none">
             <p className="text-lg mb-4">
-              DiscountCouponCode is a website that provides the latest and most comprehensive collection of coupons and
+              Neet Pg and Fmge Discount Code is a website that provides the latest and most comprehensive collection of coupons and
               deals for online shoppers. Our mission is to help you save money while shopping online by offering you the
               best deals and discounts from the top retailers and brands.
             </p>
@@ -38,9 +38,9 @@ export default function AboutPage() {
             </p>
 
             <p className="mb-8">
-              At DiscountCouponCode, we are committed to providing our users with the best possible experience. We value
+              At Neet Pg and Fmge Discount Code, we are committed to providing our users with the best possible experience. We value
               your feedback and suggestions, so please don't hesitate to contact us if you have any questions or
-              comments. Thank you for choosing DiscountCouponCode for all of your online shopping needs!
+              comments. Thank you for choosing Neet Pg and Fmge Discount Code for all of your online shopping needs!
             </p>
 
             <h2 className="text-2xl font-bold mb-4">Our Values</h2>

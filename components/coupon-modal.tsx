@@ -12,6 +12,7 @@ interface CouponModalProps {
   coupon: {
     id: number
     store: string
+    url: string
     title: string
     description: string
     discount: string
@@ -91,10 +92,14 @@ export function CouponModal({ isOpen, onClose, coupon }: CouponModalProps) {
                   {copied ? <Check className="h-4 w-4 mr-2" /> : <Copy className="h-4 w-4 mr-2" />}
                   {copied ? "Copied!" : "Copy Code"}
                 </Button>
+                <a href={coupon.url} target="_blank">
+
+
                 <Button  variant="outline" className="flex-1">
-                  <ExternalLink className="h-4 w-4 mr-2" />
+                  <ExternalLink href={coupon.url} className="h-4 w-4 mr-2"  />
                   Go to Store
                 </Button>
+                </a>
               </div>
 
               <div className="mt-6 text-center text-sm text-gray-500">

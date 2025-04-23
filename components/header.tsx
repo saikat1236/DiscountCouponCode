@@ -11,7 +11,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-2">
           <div className="relative">
-            <h1 className="text-2xl font-bold">DiscountCouponCode</h1>
+            <h1 className="text-2xl font-bold">Neet Pg and Fmge Discount Code</h1>
             <div className="absolute -right-6 -top-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

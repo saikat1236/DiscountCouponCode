@@ -6,9 +6,9 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">About DiscountCouponCode</h3>
+            <h3 className="font-bold text-lg mb-4">About Neet Pg and Fmge Discount Code</h3>
             <p className="text-gray-600">
-              DiscountCouponCode provides the latest and most comprehensive collection of coupons and deals for online
+              Neet Pg and Fmge Discount Code provides the latest and most comprehensive collection of coupons and deals for online
               shoppers. Our mission is to help you save money while shopping online.
             </p>
           </div>
@@ -53,7 +53,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t mt-8 pt-8 text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} DiscountCouponCode. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Neet Pg and Fmge Discount Code. All rights reserved.</p>
         </div>
       </div>
     </footer>

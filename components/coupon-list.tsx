@@ -15,6 +15,7 @@ const allCoupons = {
     {
       id: 1,
       store: "PrepLadder",
+      url: "https://prepladder.com/",
       storeSlug: "prepladder",
       title: "PrepLadder 90% Discount Coupon Code",
       description: "Use this code and get max discount on Pro plans, Ellite plans, FMGE, NEXT PG, PROFF plan, etc",
@@ -30,6 +31,7 @@ const allCoupons = {
     {
       id: 2,
       store: "PrepLadder",
+      url: "https://prepladder.com/",
       storeSlug: "prepladder",
       title: "₹1500 Off Prepladder Coupon Code",
       description: "1500 Off Prepladder promo Code, Discount on Prepladder packs for MEDICAL PG, FMGE, SS, PROFF PACKS",
@@ -45,6 +47,7 @@ const allCoupons = {
     {
       id: 3,
       store: "PrepLadder",
+      url: "https://prepladder.com/",
       storeSlug: "prepladder",
       title: "Upto 40% Off on All Plans",
       description: "Use this coupon code to get upto 40% discount on all Prepladder plans",
@@ -62,6 +65,7 @@ const allCoupons = {
     {
       id: 4,
       store: "MedEd",
+      url: "https://meded.pw.live/",
       storeSlug: "meded",
       title: "Upto 50% Off PWMED ED Plans",
       description: "Use this code to get upto 50% discount on all PWMED ED plans",
@@ -79,6 +83,7 @@ const allCoupons = {
     {
       id: 5,
       store: "Medace",
+      url: "https://medace.org/",
       storeSlug: "medace",
       title: "Instant 50% Off + Free Extension",
       description: "Use this code to get instant 50% discount + free extension depending on your plans",
@@ -96,6 +101,7 @@ const allCoupons = {
     {
       id: 6,
       store: "Egurukul",
+      url: "https://egurukul.com/",
       storeSlug: "egurukul",
       title: "Upto 50% Off + Free Extension",
       description: "Up to 50% Off + free extension Egurukul Coupon Code, Discount & Offer on Egurukul packs for NEET PG/NEXT, Dental MDS BDS, FMGE/NEXT, USMLE and renewal extension.",
@@ -113,16 +119,17 @@ const allCoupons = {
     {
       id: 7,
       store: "DBMCI",
+      url: "https://dbmci.com/",
       storeSlug: "dbmci",
-      title: "Up to 50% Off Egurukul Offer",
-      description: "Up to 50% Off + free extension Egurukul Coupon Code, Discount & Offer on Egurukul packs for NEET PG/NEXT, Dental MDS BDS, FMGE/NEXT, USMLE and renewal extension.",
+      title: "Up to 50% Off DBMCI Offer",
+      description: "Up to 50% Off + free extension DBMCI Coupon Code, Discount & Offer on DBMCI packs for NEET PG/NEXT, Dental MDS BDS, FMGE/NEXT, USMLE and renewal extension.",
       discount: "50% Off",
       days: 5,
       verified: true,
       liked: false,
       badge: "SHARED CODE",
       badgeColor: "bg-indigo-500",
-      code: "same as e gurukul",
+      code: "ARI345",
       logo: "/dbmci.jpg?height=300&width=300&text=DM",
     },
   ],
@@ -130,6 +137,7 @@ const allCoupons = {
     {
       id: 8,
       store: "Cerebellum",
+      url: "https://cerebellum.com/",
       storeSlug: "cerebellum",
       title: "Upto 50% Off Second Prof Plan",
       description: "Cerebellum Coupon Code For Second Prof Plan (FMGE)",
@@ -145,6 +153,7 @@ const allCoupons = {
     {
       id: 9,
       store: "Cerebellum",
+      url: "https://cerebellum.com/",
       storeSlug: "cerebellum",
       title: "Mission 200+ FMGE Plan Coupon",
       description: "Cerebellum Coupon Code for Mission 200+ FMGE Plan (6 Months Validity)",
@@ -160,6 +169,7 @@ const allCoupons = {
     {
       id: 10,
       store: "Cerebellum",
+      url: "https://cerebellum.com/",
       storeSlug: "cerebellum",
       title: "First + Second Prof Combined Plan",
       description: "Cerebellum Coupon Code for First + Second Prof Combined Plan (FMGE)",
@@ -177,6 +187,7 @@ const allCoupons = {
     {
       id: 11,
       store: "DAMS",
+      url: "https://damsdelhi.com/",
       storeSlug: "dams",
       title: "20% Off + Free Extension",
       description: "Use this code to get extra 20% discount + free extension depending on your plans",
