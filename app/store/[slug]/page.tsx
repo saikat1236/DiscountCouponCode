@@ -1,7 +1,8 @@
 import { Header } from "@/components/header"
 import { StoreCoupons } from "@/components/store-coupons"
 import { StoreSidebar } from "@/components/store-sidebar"
-
+import  CouponSeo  from "@/components/head"
+import { Metadata } from "next"
 // Store data database
 const storeData = {
   prepladder: {
@@ -61,6 +62,49 @@ const storeData = {
     categories: ["Education", "Medical", "All categories"],
   }
 
+}
+
+// ✅  Dynamic SEO metadata generator
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const store = storeData[params.slug as keyof typeof storeData] || {
+    name: params.slug.charAt(0).toUpperCase() + params.slug.slice(1),
+    logo: `/default.jpg`,
+    discount: "Discount",
+    rating: 0,
+    votes: 0,
+    categories: ["All categories"],
+  }
+
+  const title = `${store.name} Coupons, Promo Codes & Deals | Upto ${store.discount}`
+  const description = `Grab the latest verified discount coupons, deals, and promo codes for ${store.name}. Save big on ${store.categories.join(", ")} courses and more.`
+  const keywords = `${store.name} coupons, ${store.name} promo codes, ${store.name} discounts, NEET PG coupons, FMGE discounts, medical education offers`
+
+  const url = `https://neetpgandfmgediscountcode.com/store/${params.slug}`
+
+  return {
+    title,
+    description,
+    keywords: keywords.split(", "), // Next expects array for keywords
+    openGraph: {
+      title,
+      description,
+      url,
+      images: [
+        {
+          url: `https://neetpgandfmgediscountcode.com${store.logo}`,
+          width: 800,
+          height: 600,
+          alt: `${store.name} Discount Coupons`
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [`https://neetpgandfmgediscountcode.com${store.logo}`],
+    },
+  }
 }
 
 export default function StorePage({ params }: { params: { slug: string } }) {
