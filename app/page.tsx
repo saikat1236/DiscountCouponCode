@@ -12,11 +12,12 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "../images/img1.jpg";
-import img2 from "../images/img2.jpg";  
+import img2 from "../images/img2.jpg";
 import img3 from "../images/img3.jpg";
 import img4 from "../images/img4.jpg";
 import img5 from "../images/img5.jpg";
 import img6 from "../images/img6.jpg";
+// import banner from "../images/banner.mp4";
 
 export default function Home() {
   const popularStores = [
@@ -67,6 +68,26 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 container mx-auto px-4 py-8">
+        <div className="relative h-[80vh] md:h-[60vh] overflow-hidden">
+          <video
+            autoPlay
+            muted
+            loop
+        className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[100%] md:w-[100%] h-[80vh] md:h-[60vh] object-cover z-0"
+          >
+            <source src="/banner.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Welcome to Our Website
+            </h1>
+            <p className="text-lg md:text-xl">
+              Check out our amazing offers and features!
+            </p>
+          </div>
+        </div>
+
         <div className="col-span-1">
           <StoresSidebar />
         </div>
@@ -78,42 +99,12 @@ export default function Home() {
         </div>
         {/* make a responsive image slider below */}
         <div className="mt-8 mb-8 flex justify-center items-center gap-4 scrollbar overflow-x-scroll">
-            <Image
-              src={img1}
-              alt="PrepLadder"
-              width={300}
-              height={300}
-            />
-            <Image
-              src={img2}
-              alt="PrepLadder"
-              width={300}
-              height={300}
-            />
-            <Image
-              src={img3}
-              alt="PrepLadder"
-              width={300}
-              height={300}
-            />
-            <Image
-              src={img4}
-              alt="PrepLadder"
-              width={300}
-              height={300}
-            />
-            <Image
-              src={img5}
-              alt="PrepLadder"
-              width={300}
-              height={300}
-            />
-            <Image
-              src={img6}
-              alt="PrepLadder"
-              width={300}
-              height={300}
-            />
+          <Image src={img1} alt="PrepLadder" width={300} height={300} />
+          <Image src={img2} alt="PrepLadder" width={300} height={300} />
+          <Image src={img3} alt="PrepLadder" width={300} height={300} />
+          <Image src={img4} alt="PrepLadder" width={300} height={300} />
+          <Image src={img5} alt="PrepLadder" width={300} height={300} />
+          <Image src={img6} alt="PrepLadder" width={300} height={300} />
         </div>
       </main>
       <Footer />
