@@ -140,7 +140,7 @@ const allCoupons = {
     {
       id: 8,
       store: "Cerebellum",
-      url: "https://cerebellum.com/",
+      url: "https://www.cerebellumacademy.com/",
       storeSlug: "cerebellum",
       title: "Upto 50% Off Second Prof Plan",
       description: "Cerebellum Coupon Code For Second Prof Plan (FMGE)",
@@ -156,7 +156,7 @@ const allCoupons = {
     {
       id: 9,
       store: "Cerebellum",
-      url: "https://cerebellum.com/",
+      url: "https://www.cerebellumacademy.com/",
       storeSlug: "cerebellum",
       title: "Mission 200+ FMGE Plan Coupon",
       description: "Cerebellum Coupon Code for Mission 200+ FMGE Plan (6 Months Validity)",
@@ -172,7 +172,7 @@ const allCoupons = {
     {
       id: 10,
       store: "Cerebellum",
-      url: "https://cerebellum.com/",
+      url: "https://www.cerebellumacademy.com/",
       storeSlug: "cerebellum",
       title: "First + Second Prof Combined Plan",
       description: "Cerebellum Coupon Code for First + Second Prof Combined Plan (FMGE)",
